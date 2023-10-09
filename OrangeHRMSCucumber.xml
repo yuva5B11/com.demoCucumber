@@ -1,0 +1,13 @@
+<suite name="Orange HRMS with Cucumber">
+	<test name="admin login test cases">
+		<classes>
+			<class name="testrunners.AdminLoginTest"></class>
+		</classes>
+	</test>
+	<test name="Emp creation Test case">
+		<classes>
+			<class name="testrunners.empCreationTest"></class>
+		</classes>
+	</test>
+	
+</suite>
