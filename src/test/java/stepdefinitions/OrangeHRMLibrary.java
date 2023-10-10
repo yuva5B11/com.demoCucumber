@@ -28,7 +28,7 @@ public class OrangeHRMLibrary {
 	public void i_open_browser_with_url(String url) throws MalformedURLException {
 		cap=new DesiredCapabilities();
 		cap.setBrowserName("chrome");
-		URL huburl=new URL("http://10.3.173.68:4444");
+		URL huburl=new URL("http://10.3.175.6:444");
 		driver=new RemoteWebDriver(huburl,cap);
 //		driver=new ChromeDriver();
 		driver.manage().window().maximize();
